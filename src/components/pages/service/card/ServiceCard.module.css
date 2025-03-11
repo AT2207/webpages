@@ -1,0 +1,33 @@
+
+
+.box{
+    padding: 50px 30px;
+    box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+
+}
+
+.box:hover{
+    transform: translateY(-10px);
+}
+
+
+.box svg{
+    color: #009cea;
+    font-size: 35px;
+}
+
+.box h4{
+    font-size: 20px;
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.box:hover h4{
+    color: #009cea;
+}
+
+.box p{
+    font-size: 13px;
+}
