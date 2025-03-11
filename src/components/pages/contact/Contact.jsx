@@ -54,6 +54,12 @@ const Contact = () => {
                 ) {
                   errors.email = 'Invalid email address';
                 }
+                if (!values.name) {
+                  errors.name = 'Required';
+                }
+                if (!values.subject) {
+                  errors.subject = 'Required';
+                }
                 return errors;
               }}
               onSubmit={(values, { setSubmitting }) => {
